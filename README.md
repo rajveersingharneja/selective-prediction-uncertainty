@@ -283,6 +283,19 @@ Random seeds are fixed for consistency across runs.
 
 ---
 
+## Research Paper
+
+This project was accompanied by an undergraduate research paper exploring selective prediction, abstention policies, and uncertainty-aware decision making under distribution shift.
+
+The paper discusses:
+
+- Risk–coverage trade-offs
+- Cost-sensitive abstention strategies
+- Tri-action decision policies (Predict / Defer / Abstain)
+- Robustness under distribution shift
+
+**Paper status:** Undergraduate research manuscript / preprint.
+
 ## Author
 
 **Rajveer Singh Arneja**  
