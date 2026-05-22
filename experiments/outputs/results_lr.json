@@ -1,0 +1,69 @@
+{
+  "baseline": {
+    "accuracy": 0.8085,
+    "precision": 0.18625277161862527,
+    "recall": 0.84,
+    "f1": 0.30490018148820325,
+    "roc_auc": 0.9076907894736841,
+    "avg_prec": 0.5656037553046069,
+    "total_cost": 894.0,
+    "per_sample_cost": 0.2235,
+    "ece": 0.25233443814128836,
+    "mce": 0.6131511177970526,
+    "brier": 0.1309707163593074
+  },
+  "static": {
+    "strategy": "static",
+    "coverage": 0.699,
+    "abstention_rate": 0.301,
+    "defer_rate": 0.0,
+    "selective_risk": 0.10300429184549356,
+    "selective_precision": 0.34299516908212563,
+    "selective_recall": 0.8987341772151899,
+    "selective_f1": 0.4965034965034965,
+    "total_cost": 954.0,
+    "per_sample_cost": 0.2385,
+    "n_samples": 4000
+  },
+  "cost_aware": {
+    "strategy": "cost_aware",
+    "coverage": 0.49975,
+    "abstention_rate": 0.50025,
+    "defer_rate": 0.0,
+    "selective_risk": 0.3696848424212106,
+    "selective_precision": 0.18625277161862527,
+    "selective_recall": 0.9710982658959537,
+    "selective_f1": 0.3125581395348837,
+    "total_cost": 1759.5,
+    "per_sample_cost": 0.439875,
+    "n_samples": 4000
+  },
+  "dynamic": {
+    "strategy": "dynamic",
+    "coverage": 0.8,
+    "abstention_rate": 0.2,
+    "defer_rate": 0.0,
+    "selective_risk": 0.1265625,
+    "selective_precision": 0.2835820895522388,
+    "selective_recall": 0.8786127167630058,
+    "selective_f1": 0.4287729196050776,
+    "total_cost": 889.0,
+    "per_sample_cost": 0.22225,
+    "n_samples": 4000
+  },
+  "tri_action": {
+    "strategy": "tri_action",
+    "coverage": 0.61575,
+    "abstention_rate": 0.0735,
+    "defer_rate": 0.31075,
+    "selective_risk": 0.08120178643930166,
+    "selective_precision": 0.42024539877300615,
+    "selective_recall": 0.9256756756756757,
+    "selective_f1": 0.5780590717299579,
+    "total_cost": 2255.5,
+    "per_sample_cost": 0.563875,
+    "n_samples": 4000
+  },
+  "aurc_static": 0.0731143132457455,
+  "aurc_dynamic": 0.05727801871202152
+}
